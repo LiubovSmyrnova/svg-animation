@@ -18,7 +18,8 @@
 }
 
 img:hover {
-    animation-play-state: paused;
+    animation-play-state: initial;
+    opacity: 0.3;
 }
 @keyframes animate__fadeOut {
     0% {transform: scale(0.5);}
@@ -28,6 +29,5 @@ img:hover {
 .hus {
     width: 10%;
     height: 10%;
-
     animation: animate__fadeOut 3s ease infinite;
 }
